@@ -32,10 +32,11 @@ Explanation: The only possible triplet sums up to 0.
 
 
 ## Approach
-
-- first iterate using a for loop, check if nums[i]==num[i-1] then skip
+- sort the input
+- then iterate using a for loop, check if nums[i]==num[i-1] then skip
 - using two pointer check if sum of i,l,r == 0 
     - if sum == 0 then push the element and l++,r--
     - else if sum > 0: r--
     - else l++ 
+
  
